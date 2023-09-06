@@ -1,5 +1,5 @@
 body {
-  background-color: #FFF5EE;
+  background-color: #fff5ee;
   margin: 0;
   padding: 0;
   font-family: "Inter", sans-serif;
@@ -57,64 +57,66 @@ body {
   color: #fff;
 }
 
+header {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+section {
+  /* Grid */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+  /* Gap */
+  gap: 1rem;
+
+  /* Padding */
+  padding: 1rem;
+
+  /* Margin */
+  margin: 1rem;
+}
+
+section div {
+  /* Padding */
+  padding: 1rem;
+
+  /* Border */
+  border: 1px solid #a0522d;
+
+  /* Border radius */
+  border-radius: 5px;
+}
+
 .tags {
-    display: flex;
-    flex-direction: column;
-    margin-top: 5rem;
-    /* Center */
-    justify-content: center;
-    align-items: center;
-    gap: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
 }
 
-/* .tags > h1:hover {
-    color: #a0522d;
-    cursor: pointer;
-    transform: translateY(-2px);
+section p{
+  font-size: 1.2rem;
+  font-weight: 400;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  transition: 0.2s ease;
 }
 
-.tags > h2:hover {
-    color: #a0522d;
-    cursor: pointer;
-    transform: translateY(-2px);
+.mapache-img {
+  width: 200px;
+  height: auto;
 }
-
-.tags > h3:hover {
-    color: #a0522d;
-    cursor: pointer;
-    transform: translateY(-2px);
-}
-
-.tags > h4:hover {
-    color: #a0522d;
-    cursor: pointer;
-    transform: translateY(-2px);
-}
-
-.tags > h5:hover {
-    color: #a0522d;
-    cursor: pointer;
-    transform: translateY(-2px);
-}
-
-.tags > h6:hover {
-    color: #a0522d;
-    cursor: pointer;
-    transform: translateY(-2px);
-} */
 
 .tags > h1:hover,
 .tags > h2:hover,
 .tags > h3:hover,
 .tags > h4:hover,
 .tags > h5:hover,
-.tags > h6:hover, 
-.tags > p:hover {
-    color: #a0522d;
-    cursor: pointer;
-    transform: translateY(-2px);
+.tags > h6:hover,
+.section > p:hover {
+  color: #a0522d;
+  cursor: pointer;
+  transform: translateY(-2px);
 }
-
-
-
-
