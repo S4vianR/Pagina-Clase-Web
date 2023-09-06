@@ -1,0 +1,120 @@
+body {
+  background-color: #FFF5EE;
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+
+.nav {
+  background-color: #a0522d;
+  height: fit-content;
+}
+
+.nav > div {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+  /* Padding: top and bottom, left and right */
+  padding: 0 10px;
+  color: #fff;
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.nav-list > li {
+  list-style: none;
+  transition: 0.2s ease;
+}
+
+.nav-list > li a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #fff;
+  cursor: pointer;
+}
+
+.nav-list > li:hover {
+  color: #fff;
+  text-decoration: underline;
+  transform: translateY(-2px);
+}
+
+.nav-title {
+  font-size: 1.2rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.nav-title > a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.tags {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+    /* Center */
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+/* .tags > h1:hover {
+    color: #a0522d;
+    cursor: pointer;
+    transform: translateY(-2px);
+}
+
+.tags > h2:hover {
+    color: #a0522d;
+    cursor: pointer;
+    transform: translateY(-2px);
+}
+
+.tags > h3:hover {
+    color: #a0522d;
+    cursor: pointer;
+    transform: translateY(-2px);
+}
+
+.tags > h4:hover {
+    color: #a0522d;
+    cursor: pointer;
+    transform: translateY(-2px);
+}
+
+.tags > h5:hover {
+    color: #a0522d;
+    cursor: pointer;
+    transform: translateY(-2px);
+}
+
+.tags > h6:hover {
+    color: #a0522d;
+    cursor: pointer;
+    transform: translateY(-2px);
+} */
+
+.tags > h1:hover,
+.tags > h2:hover,
+.tags > h3:hover,
+.tags > h4:hover,
+.tags > h5:hover,
+.tags > h6:hover, 
+.tags > p:hover {
+    color: #a0522d;
+    cursor: pointer;
+    transform: translateY(-2px);
+}
+
+
+
+
